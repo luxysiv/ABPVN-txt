@@ -89,3 +89,4 @@ bongdaplus.vn##div.clx:nth-of-type(13)
 bongdaplus.vn###ADMTOP
 animevietsub.biz###hide_catfish
 tvphim.la###preload-2 > div
+vietsubtv.bip###hide_catfish > a
