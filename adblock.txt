@@ -1,3 +1,4 @@
+vnexpress.net###sync_bgu_and_masthead
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
