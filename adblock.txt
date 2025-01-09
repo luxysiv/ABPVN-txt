@@ -1,4 +1,3 @@
-vnexpress.net###sync_bgu_and_masthead
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
@@ -56,6 +55,7 @@ vnexpress.net###newsletters-details > .wrap
 vnexpress.net###newsletters-footer > .wrap
 vnexpress.net###newsletters-sidebar > .wrap > .box-newsletter-new__left
 vnexpress.net###newsletters-top > .wrap
+vnexpress.net###sync_bgu_and_masthead
 vnexpress.net###thongtindoanhnghiep
 vnexpress.net##.bottom.icon-podcast-pin
 vnexpress.net##.box-ebank-qt.box-category
