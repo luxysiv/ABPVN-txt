@@ -1,3 +1,4 @@
+||i.imgur.com/*.gif$domain=phimmoiday.net
 ! BLOCK_RULES
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
 ||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.vip
