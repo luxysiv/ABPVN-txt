@@ -35,8 +35,8 @@ phimmoichill.bio###headermbads
 phimmoichill.bio###headerpcads
 phimmoichill.bio###mobiads
 phimmoichill.bio###pcads
-phimmoichill.bio##.off-ads
 phimmoichill.bio###pmadv
+phimmoichill.bio##.off-ads
 phimnhanhz.com###container-ads
 phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
