@@ -1,3 +1,8 @@
+vietsubtv.vip##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
+vietsubtv.vip##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
+vietsubtv.vip###hide_catfish > a
+vietsubtv.vip###catfish_content > center > a > img.catfish-img
+vietsubtv.vip###catfish_content > center > a > img.catfish-img
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
