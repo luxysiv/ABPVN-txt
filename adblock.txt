@@ -1,3 +1,5 @@
+phimnhua.xyz##.turnoff-catfish
+phimnhua.xyz##.center-screen.backdrop
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
