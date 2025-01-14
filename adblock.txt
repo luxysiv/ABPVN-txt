@@ -1,3 +1,5 @@
+/videojs.ads.$domain=~danet.vn
+/lv/esnk/*$script,third-party
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
