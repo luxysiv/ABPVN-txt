@@ -1,5 +1,5 @@
-||blogger.googleusercontent.com/img/b/*728x90.gif
 ! BLOCK_RULES
+||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
 ||phimnhua.xyz/push/*.gif
