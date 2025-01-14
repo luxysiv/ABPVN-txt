@@ -1,5 +1,3 @@
-/videojs.ads.$domain=~danet.vn
-/lv/esnk/*$script,third-party
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
@@ -104,6 +102,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! SCRIPT_RULES
 "/pop.js$script
 /js/shopunder.js$script,domain=vietsubtv.vip
+/lv/esnk/*$script,third-party
 /newchill/*.js$script
 /popchill.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
@@ -115,4 +114,5 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! OTHER_RULES
 /ads/popup
 /btag.min.js$third-party
+/videojs.ads.$domain=~danet.vn
 
