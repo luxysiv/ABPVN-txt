@@ -1,3 +1,4 @@
+||blogger.googleusercontent.com/img/b/*728x90.gif
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
