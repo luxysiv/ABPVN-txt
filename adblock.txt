@@ -1,4 +1,3 @@
-/btag.min.js$third-party
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
@@ -113,4 +112,5 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! OTHER_RULES
 /ads/popup
+/btag.min.js$third-party
 
