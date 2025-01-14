@@ -1,5 +1,3 @@
-phimnhua.xyz##.turnoff-catfish
-phimnhua.xyz##.center-screen.backdrop
 ! BLOCK_RULES
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
@@ -45,6 +43,8 @@ phimmoichill.bio##.off-ads
 phimnhanhz.com###container-ads
 phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
+phimnhua.xyz##.center-screen.backdrop
+phimnhua.xyz##.turnoff-catfish
 truyensextv1.com###sticky-footer
 truyensextv69.com,truyensex.moe,truyensextv1.com###duoind
 truyensextv69.com,truyensex.moe,truyensextv1.com###qctop
