@@ -1,7 +1,7 @@
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
-||lh3.googleusercontent.com^$domain=animevietsub.biz
+||lh3.googleusercontent.com^$domain=animevietsub.page
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
 ||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.me
@@ -11,7 +11,7 @@
 ||truyensextv69.com^$script
 
 ! HIDE_RULES
-animevietsub.biz###hide_catfish
+animevietsub.page###hide_catfish
 bongdaplus.vn###ADMTOP
 bongdaplus.vn##.mix-predict
 bongdaplus.vn##.mix-specs
