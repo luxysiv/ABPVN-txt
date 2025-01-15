@@ -1,5 +1,3 @@
-hhtq.xyz###catfish
-hhninja16.tv###catfish
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -30,6 +28,8 @@ bongdaplus.vn##div.mix-story:nth-of-type(3)
 bongdaplus.vn##div.row:nth-of-type(15)
 bongdaplus.vn##div.row:nth-of-type(17)
 bongdaplus.vn##main:nth-child(3) > section:last-child > div.cont-wrap > div.row:first-child > div.col.pad-300:first-child > div.mix-cats:nth-child(6) > div.row:nth-child(12) > div.col.m12.w6:last-child
+hhninja16.tv###catfish
+hhtq.xyz###catfish
 ios.codevn.net##.swal2-backdrop-show
 ios.codevn.net##.swal2-show.swal2-icon-error
 m.genk.vn###adm-slot-7269
