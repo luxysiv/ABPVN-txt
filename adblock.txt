@@ -4,7 +4,7 @@
 ||lh3.googleusercontent.com^$domain=animevietsub.biz
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
-||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.vip
+||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.me
 ||raw.githubusercontent.com/*.mp4$media,domain=phimmoichill.bio
 ||truyensex.moe^$script
 ||truyensextv1.com^$script
@@ -55,13 +55,10 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
-tvphim.la###preload-2 > div
-vietsubtv.vip###catfish_content > center > a > img.catfish-img
-vietsubtv.vip###catfish_content > center > a > img.catfish-img
-vietsubtv.vip###hide_catfish > a
-vietsubtv.vip###hide_catfish > a
-vietsubtv.vip##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
-vietsubtv.vip##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
+tvphim.nl###preload-2 > div
+vietsubtv.me###catfish_content > center > a > img.catfish-img
+vietsubtv.me###hide_catfish > a
+vietsubtv.me##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
 vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
 vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
 vnexpress.net###newsletters-details > .wrap
@@ -104,7 +101,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! SCRIPT_RULES
 "/pop.js$script
-/js/shopunder.js$script,domain=vietsubtv.vip
+/js/shopunder.js$script,domain=vietsubtv.me
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
 /popchill.js$script
@@ -119,4 +116,3 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /btag.min.js$third-party
 /js/popunder.js
 /videojs.ads.$domain=~danet.vn
-
