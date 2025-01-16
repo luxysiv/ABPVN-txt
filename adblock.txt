@@ -1,3 +1,4 @@
+vnexpress.net##.icon-podcast-pin
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
