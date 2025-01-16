@@ -1,4 +1,3 @@
-vnexpress.net##.icon-podcast-pin
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -79,6 +78,7 @@ vnexpress.net##.col-right-top
 vnexpress.net##.coppy_right_info.width_common.newsletter_sidebar
 vnexpress.net##.flexbox.header-box-tvol-vs
 vnexpress.net##.fs_parent_box.wrap-box-business.container
+vnexpress.net##.icon-podcast-pin
 vnexpress.net##.js_installvneapp.installvneapp--small.installvneapp
 vnexpress.net##.list-link
 vnexpress.net##.mb20.section_wrap_poll.inner_section
