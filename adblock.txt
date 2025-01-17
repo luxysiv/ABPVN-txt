@@ -1,7 +1,3 @@
-123av.com##.ad-floating
-123av.com##.text-center.d-lg-none
-
-
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -15,6 +11,8 @@
 ||truyensextv69.com^$script
 
 ! HIDE_RULES
+123av.com##.ad-floating
+123av.com##.text-center.d-lg-none
 animevietsub.page###hide_catfish
 bongdaplus.vn###ADMTOP
 bongdaplus.vn##.mix-predict
