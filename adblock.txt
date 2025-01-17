@@ -1,4 +1,3 @@
-vnexpress##.banner-top-home.banner-ads.section-ads-top.section
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -60,6 +59,7 @@ tvphim.nl###preload-2 > div
 vietsubtv.me###catfish_content > center > a > img.catfish-img
 vietsubtv.me###hide_catfish > a
 vietsubtv.me##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
+vnexpress##.banner-top-home.banner-ads.section-ads-top.section
 vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
 vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
 vnexpress.net###newsletters-details > .wrap
