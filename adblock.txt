@@ -1,4 +1,3 @@
-hihihaha1.xyz,playhydrax.com,filmespi.online,playembedapi.site,streamsb.online,rufiguta.com,abysscdn.com,player-cdn.com,kmo.to,nazarickol.com,redirect-ads.com#%#//scriptlet('trusted-replace-node-text', 'script', 'track.window', '/track.window >= \d+/', 'false')
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -122,5 +121,6 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /btag.min.js$third-party
 /js/popunder.js
 /videojs.ads.$domain=~danet.vn
+hihihaha1.xyz,playhydrax.com,filmespi.online,playembedapi.site,streamsb.online,rufiguta.com,abysscdn.com,player-cdn.com,kmo.to,nazarickol.com,redirect-ads.com#%#//scriptlet('trusted-replace-node-text', 'script', 'track.window', '/track.window >= \d+/', 'false')
 javplayer.me#%#//scriptlet('prevent-window-open')
 
