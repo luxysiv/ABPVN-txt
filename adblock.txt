@@ -1,3 +1,4 @@
+freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#%#//scriptlet("set-constant", "open", "noopFunc")
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
