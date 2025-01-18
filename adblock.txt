@@ -1,6 +1,5 @@
-||api.anime3s.com/*/728-x-90.gif
-/js/qc_*.js$script
 ! BLOCK_RULES
+||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.page
@@ -108,6 +107,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! SCRIPT_RULES
 "/pop.js$script
+/js/qc_*.js$script
 /js/shopunder.js$script,domain=vietsubtv.me
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
