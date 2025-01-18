@@ -1,3 +1,5 @@
+||api.anime3s.com/*/728-x-90.gif
+/js/qc_*.js$script
 ! BLOCK_RULES
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
