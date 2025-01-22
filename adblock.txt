@@ -108,9 +108,9 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! SCRIPT_RULES
 "/pop.js$script
 /js/qc_*.js$script
-/pop.js$script,domain=vietsubtv.me
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
+/pop.js$script,domain=vietsubtv.me
 /popchill.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
 
