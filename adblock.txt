@@ -108,7 +108,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! SCRIPT_RULES
 "/pop.js$script
 /js/qc_*.js$script
-/js/shopunder.js$script,domain=vietsubtv.me
+/pop.js$script,domain=vietsubtv.me
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
 /popchill.js$script
