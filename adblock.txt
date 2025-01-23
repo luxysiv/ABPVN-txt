@@ -1,3 +1,4 @@
+vietsubtv.me##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
 ! BLOCK_RULES
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
