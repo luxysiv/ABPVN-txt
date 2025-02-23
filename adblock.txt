@@ -1,3 +1,4 @@
+vnexpress.net##SECTION.section.box_category_v2.section_ads_300x250
 ! BLOCK_RULES
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
