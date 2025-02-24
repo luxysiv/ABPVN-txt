@@ -1,5 +1,3 @@
-bongdaplus.vn##[href*="hau-truong"]
-bongdaplus.vn##[href*="nhan-dinh"]
 ! BLOCK_RULES
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
@@ -27,6 +25,8 @@ bongdaplus.vn##.mix-tags
 bongdaplus.vn##.pad-300.m12.col > .row > div.w6.m12.col > .mix-story
 bongdaplus.vn##.tip-hot.mix-tips
 bongdaplus.vn##[href*="goc-check-var"]
+bongdaplus.vn##[href*="hau-truong"]
+bongdaplus.vn##[href*="nhan-dinh"]
 bongdaplus.vn##div.clx:nth-of-type(13)
 bongdaplus.vn##div.clx:nth-of-type(16)
 bongdaplus.vn##div.clz:nth-of-type(7)
