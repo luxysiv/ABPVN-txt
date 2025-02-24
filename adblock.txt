@@ -113,10 +113,10 @@ vnexpress.net##section.box_category_v2_home.box_category_v2.box_category.section
 vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! SCRIPT_RULES
-/pop.js$script
 /js/qc_*.js$script
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
+/pop.js$script
 /pop.js$script,domain=vietsubtv.cc
 /popchill.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
