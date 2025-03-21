@@ -64,7 +64,7 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
-tvphim.nl###preload-2 > div
+/^.*?tvphim.*?$/###preload-2 > div
 vietsubtv.cc###catfish_content > center > a > img.catfish-img
 vietsubtv.cc###hide_catfish > a
 vietsubtv.cc##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
