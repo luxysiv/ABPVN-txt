@@ -20,6 +20,7 @@
 /^.*?phimmoichill.*?$/###pcads
 /^.*?phimmoichill.*?$/###pmadv
 /^.*?phimmoichill.*?$/##.off-ads
+/^.*?tvphim.*?$/###preload-2 > div
 123av.com##.ad-floating
 123av.com##.container > .d-lg-none
 123av.com##.text-center.d-lg-none
@@ -64,7 +65,6 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
-/^.*?tvphim.*?$/###preload-2 > div
 vietsubtv.cc###catfish_content > center > a > img.catfish-img
 vietsubtv.cc###hide_catfish > a
 vietsubtv.cc##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
