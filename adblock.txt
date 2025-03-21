@@ -5,7 +5,7 @@
 ||lh3.googleusercontent.com^$domain=animevietsub.page
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
-||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.cc
+||raw.githubusercontent.com/*.gif$image,domain=/^.*?vietsubtv.*?$/
 ||truyensex.moe^$script
 ||truyensextv1.com^$script
 ||truyensextv69.com^$script
@@ -20,7 +20,6 @@
 /^.*?phimmoichill.*?$/###pcads
 /^.*?phimmoichill.*?$/###pmadv
 /^.*?phimmoichill.*?$/##.off-ads
-/^.*?tvphim.*?$/###preload-2 > div
 123av.com##.ad-floating
 123av.com##.container > .d-lg-none
 123av.com##.text-center.d-lg-none
@@ -65,10 +64,11 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
-vietsubtv.cc###catfish_content > center > a > img.catfish-img
-vietsubtv.cc###hide_catfish > a
-vietsubtv.cc##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
-vietsubtv.cc##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
+/^.*?tvphim.*?$/###preload-2 > div
+/^.*?vietsubtv.*?$/###catfish_content > center > a > img.catfish-img
+/^.*?vietsubtv.*?$/###hide_catfish > a
+/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
+/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
 vnexpress##.banner-top-home.banner-ads.section-ads-top.section
 vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
 vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
@@ -118,7 +118,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
 /pop.js$script
-/pop.js$script,domain=vietsubtv.cc
+/pop.js$script,domain=/^.*?vietsubtv.*?$/
 /popchill.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
 
