@@ -11,6 +11,15 @@
 ||truyensextv69.com^$script
 
 ! HIDE_RULES
+/^.*?phimmoichill.*?$/###an_catfish
+/^.*?phimmoichill.*?$/###chilladv
+/^.*?phimmoichill.*?$/###download
+/^.*?phimmoichill.*?$/###headermbads
+/^.*?phimmoichill.*?$/###headerpcads
+/^.*?phimmoichill.*?$/###mobiads
+/^.*?phimmoichill.*?$/###pcads
+/^.*?phimmoichill.*?$/###pmadv
+/^.*?phimmoichill.*?$/##.off-ads
 123av.com##.ad-floating
 123av.com##.container > .d-lg-none
 123av.com##.text-center.d-lg-none
@@ -43,15 +52,6 @@ ios.codevn.net##.swal2-backdrop-show
 ios.codevn.net##.swal2-show.swal2-icon-error
 m.genk.vn###adm-slot-7269
 motchill.ph##.catfish-img
-/^.*?phimmoichill.*?$/###an_catfish
-/^.*?phimmoichill.*?$/###chilladv
-/^.*?phimmoichill.*?$/###download
-/^.*?phimmoichill.*?$/###headermbads
-/^.*?phimmoichill.*?$/###headerpcads
-/^.*?phimmoichill.*?$/###mobiads
-/^.*?phimmoichill.*?$/###pcads
-/^.*?phimmoichill.*?$/###pmadv
-/^.*?phimmoichill.*?$/##.off-ads
 phimnhanhz.com###container-ads
 phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
