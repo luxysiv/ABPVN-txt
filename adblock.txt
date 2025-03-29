@@ -21,7 +21,6 @@
 /^.*?phimmoichill.*?$/###pmadv
 /^.*?phimmoichill.*?$/##.off-ads
 /^.*?tvphim.*?$/###preload-2 > div
-tvphim.*###preload-2 > div
 /^.*?vietsubtv.*?$/###catfish_content > center > a > img.catfish-img
 /^.*?vietsubtv.*?$/###hide_catfish > a
 /^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
@@ -70,6 +69,7 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
+tvphim.*###preload-2 > div
 vnexpress##.banner-top-home.banner-ads.section-ads-top.section
 vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
 vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
