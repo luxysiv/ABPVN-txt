@@ -5,12 +5,26 @@
 ||lh3.googleusercontent.com^$domain=animevietsub.page
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
-||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.day
+||raw.githubusercontent.com/*.gif$image,domain=/^.*?vietsubtv.*?$/
 ||truyensex.moe^$script
 ||truyensextv1.com^$script
 ||truyensextv69.com^$script
 
 ! HIDE_RULES
+/^.*?phimmoichill.*?$/###an_catfish
+/^.*?phimmoichill.*?$/###chilladv
+/^.*?phimmoichill.*?$/###download
+/^.*?phimmoichill.*?$/###headermbads
+/^.*?phimmoichill.*?$/###headerpcads
+/^.*?phimmoichill.*?$/###mobiads
+/^.*?phimmoichill.*?$/###pcads
+/^.*?phimmoichill.*?$/###pmadv
+/^.*?phimmoichill.*?$/##.off-ads
+/^.*?tvphim.*?$/###preload-2 > div
+/^.*?vietsubtv.*?$/###catfish_content > center > a > img.catfish-img
+/^.*?vietsubtv.*?$/###hide_catfish > a
+/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
+/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
 123av.com##.ad-floating
 123av.com##.container > .d-lg-none
 123av.com##.text-center.d-lg-none
@@ -43,15 +57,6 @@ ios.codevn.net##.swal2-backdrop-show
 ios.codevn.net##.swal2-show.swal2-icon-error
 m.genk.vn###adm-slot-7269
 motchill.ph##.catfish-img
-phimmoichill.*###an_catfish
-phimmoichill.*###chilladv
-phimmoichill.*###download
-phimmoichill.*###headermbads
-phimmoichill.*###headerpcads
-phimmoichill.*###mobiads
-phimmoichill.*###pcads
-phimmoichill.*###pmadv
-phimmoichill.*##.off-ads
 phimnhanhz.com###container-ads
 phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
@@ -64,11 +69,6 @@ truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
 truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
 truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
 truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
-tvphim.*###preload-2 > div
-vietsubtv.*###catfish_content > center > a > img.catfish-img
-vietsubtv.*###hide_catfish > a
-vietsubtv.*##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
-vietsubtv.*##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
 vnexpress##.banner-top-home.banner-ads.section-ads-top.section
 vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
 vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
@@ -134,4 +134,3 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#%#//scriptlet("set-constant", "open", "noopFunc")
 hihihaha1.xyz,playhydrax.com,filmespi.online,playembedapi.site,streamsb.online,rufiguta.com,abysscdn.com,player-cdn.com,kmo.to,nazarickol.com,redirect-ads.com#%#//scriptlet('trusted-replace-node-text', 'script', 'track.window', '/track.window >= \d+/', 'false')
 javplayer.me#%#//scriptlet('prevent-window-open')
-
