@@ -11,20 +11,19 @@
 ||truyensextv69.com^$script
 
 ! HIDE_RULES
-/^.*?phimmoichill.*?$/###an_catfish
-/^.*?phimmoichill.*?$/###chilladv
-/^.*?phimmoichill.*?$/###download
-/^.*?phimmoichill.*?$/###headermbads
-/^.*?phimmoichill.*?$/###headerpcads
-/^.*?phimmoichill.*?$/###mobiads
-/^.*?phimmoichill.*?$/###pcads
-/^.*?phimmoichill.*?$/###pmadv
-/^.*?phimmoichill.*?$/##.off-ads
-/^.*?tvphim.*?$/###preload-2 > div
-/^.*?vietsubtv.*?$/###catfish_content > center > a > img.catfish-img
-/^.*?vietsubtv.*?$/###hide_catfish > a
-/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
-/^.*?vietsubtv.*?$/##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
+phimmoichill.*###an_catfish
+phimmoichill.*###chilladv
+phimmoichill.*###download
+phimmoichill.*###headermbads
+phimmoichill.*###headerpcads
+phimmoichill.*###mobiads
+phimmoichill.*###pcads
+phimmoichill.*###pmadv
+phimmoichill.*##.off-ads
+vietsubtv.*###catfish_content > center > a > img.catfish-img
+vietsubtv.*###hide_catfish > a
+vietsubtv.*##div.app:first-child > div.header:first-child > div:first-child > center > a:first-child > img
+vietsubtv.*##div.app:first-child > div.header:first-child > div:first-child > center > a:last-child > img
 123av.com##.ad-floating
 123av.com##.container > .d-lg-none
 123av.com##.text-center.d-lg-none
