@@ -134,3 +134,4 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#%#//scriptlet("set-constant", "open", "noopFunc")
 hihihaha1.xyz,playhydrax.com,filmespi.online,playembedapi.site,streamsb.online,rufiguta.com,abysscdn.com,player-cdn.com,kmo.to,nazarickol.com,redirect-ads.com#%#//scriptlet('trusted-replace-node-text', 'script', 'track.window', '/track.window >= \d+/', 'false')
 javplayer.me#%#//scriptlet('prevent-window-open')
+
