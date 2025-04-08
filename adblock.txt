@@ -131,3 +131,4 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /btag.min.js$third-party
 /videojs.ads.$domain=~danet.vn
 vietsubtv.*#$#abp-snippet(set-cookie, popupOpened=true)
+
