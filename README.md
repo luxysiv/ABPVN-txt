@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/luxysiv/Abl-txt/refs/heads/main/adblock.txt
+https://raw.githubusercontent.com/luxysiv/ABPVN-txt/refs/heads/main/adblock.txt
