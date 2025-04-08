@@ -1,5 +1,4 @@
 ! BLOCK_RULES
-vietsubtv.*#$#abp-snippet(abort-on-property-write, document.cookie)
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net
@@ -131,4 +130,5 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /ads/popup
 /btag.min.js$third-party
 /videojs.ads.$domain=~danet.vn
+vietsubtv.*#$#abp-snippet(abort-on-property-write, document.cookie)
 
