@@ -6,9 +6,9 @@
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
 ||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.day
-||truyensex.moe^$script
-||truyensextv1.com^$script
-||truyensextv69.com^$script
+||truyensextv.com^$script
+||truyensextv2.cc^$script
+||https://phamhuyen.shop/*pop*.js^$script
 
 ! HIDE_RULES
 123av.com##.ad-floating
@@ -57,13 +57,13 @@ phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
 phimnhua.xyz##.center-screen.backdrop
 phimnhua.xyz##.turnoff-catfish
-truyensextv1.com###sticky-footer
-truyensextv69.com,truyensex.moe,truyensextv1.com###duoind
-truyensextv69.com,truyensex.moe,truyensextv1.com###qctop
-truyensextv69.com,truyensex.moe,truyensextv1.com###trennd
-truyensextv69.com,truyensex.moe,truyensextv1.com##.dulieu
-truyensextv69.com,truyensex.moe,truyensextv1.com##.footer
-truyensextv69.com,truyensex.moe,truyensextv1.com##qccat
+truyensextv2.cc,truyensextv.com###sticky-footer
+truyensextv2.cc,truyensextv.com###duoind
+truyensextv2.cc,truyensextv.com###qctop
+truyensextv2.cc,truyensextv.com###trennd
+truyensextv2.cc,truyensextv.com##.dulieu
+truyensextv2.cc,truyensextv.com##.footer
+truyensextv2.cc,truyensextv.com##qccat
 tvphim.*###preload-2 > div
 vietsubtv.*###catfish_content > center > a > img.catfish-img
 vietsubtv.*###hide_catfish > a
@@ -132,4 +132,3 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /js/popunder*.js
 /shopunder*.js
 /videojs.ads.$domain=~danet.vn
-
