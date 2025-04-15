@@ -56,13 +56,6 @@ phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
 phimnhua.xyz##.center-screen.backdrop
 phimnhua.xyz##.turnoff-catfish
-truyensextv2.cc,truyensextv.com###duoind
-truyensextv2.cc,truyensextv.com###qctop
-truyensextv2.cc,truyensextv.com###sticky-footer
-truyensextv2.cc,truyensextv.com###trennd
-truyensextv2.cc,truyensextv.com##.dulieu
-truyensextv2.cc,truyensextv.com##.footer
-truyensextv2.cc,truyensextv.com##qccat
 tvphim.*###preload-2 > div
 vietsubtv.*###catfish_content > center > a > img.catfish-img
 vietsubtv.*###hide_catfish > a
