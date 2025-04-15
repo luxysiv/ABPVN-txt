@@ -1,6 +1,7 @@
 ! BLOCK_RULES
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
+||https://phamhuyen.shop/*pop*.js^$script
 ||i.imgur.com/*.gif$domain=phimmoiday.net
 ||lh3.googleusercontent.com^$domain=animevietsub.page
 ||phimnhua.xyz/push/*.gif
@@ -8,7 +9,6 @@
 ||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.day
 ||truyensextv.com^$script
 ||truyensextv2.cc^$script
-||https://phamhuyen.shop/*pop*.js^$script
 
 ! HIDE_RULES
 123av.com##.ad-floating
@@ -57,9 +57,9 @@ phimnhanhz.com###popup-giua-man-hinh
 phimnhanhz.com##.banner-top
 phimnhua.xyz##.center-screen.backdrop
 phimnhua.xyz##.turnoff-catfish
-truyensextv2.cc,truyensextv.com###sticky-footer
 truyensextv2.cc,truyensextv.com###duoind
 truyensextv2.cc,truyensextv.com###qctop
+truyensextv2.cc,truyensextv.com###sticky-footer
 truyensextv2.cc,truyensextv.com###trennd
 truyensextv2.cc,truyensextv.com##.dulieu
 truyensextv2.cc,truyensextv.com##.footer
@@ -132,3 +132,4 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /js/popunder*.js
 /shopunder*.js
 /videojs.ads.$domain=~danet.vn
+
