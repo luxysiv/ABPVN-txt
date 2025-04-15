@@ -7,8 +7,7 @@
 ||phimnhua.xyz/push/*.gif
 ||phimnhua.xyz/push/*.jpg
 ||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.day
-||truyensextv.com^$script
-||truyensextv2.cc^$script
+||truyensex*/anh/
 
 ! HIDE_RULES
 123av.com##.ad-floating
