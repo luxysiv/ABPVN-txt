@@ -3,7 +3,6 @@
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||https://phamhuyen.shop/*pop*.js^$script
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale
-||https://phamhuyen.shop/*pop*.js^$script
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
