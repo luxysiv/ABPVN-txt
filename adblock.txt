@@ -2,17 +2,13 @@
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||https://phamhuyen.shop/*pop*.js^$script
-||i.imgur.com/*.gif$domain=phimmoiday.net
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale
+||https://phamhuyen.shop/*pop*.js^$script
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
-||lh3.googleusercontent.com^$domain=animevietsub.page
 ||link10s.com/baner*$image
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
-||phimnhua.xyz/push/*.gif
-||phimnhua.xyz/push/*.jpg
-||raw.githubusercontent.com/*.gif$image,domain=vietsubtv.day
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
 ||stc02bc54661548.cloud.anycastapnic.com/1920x80*.gif$domain=khandaia2.me
 ||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
@@ -124,7 +120,6 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /lv/esnk/*$script,third-party
 /newchill/*.js$script
 /pop*.js$script
-/popchill.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
 
 ! IMAGE_RULES
@@ -135,6 +130,5 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /ads/popup
 /btag.min.js$third-party
 /js/popunder*.js
-/shopunder*.js
 /videojs.ads.$domain=~danet.vn
 
