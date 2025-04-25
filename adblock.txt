@@ -1,4 +1,34 @@
 ! BLOCK_RULES
+||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
+||stc02bc54661548.cloud.anycastapnic.com/1920x80*.gif$domain=khandaia2.me
+||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
+||api.anime3s.com/*/728-x-90.gif
+||blogger.googleusercontent.com/img/b/*728x90.gif
+||lh3.googleusercontent.com/*=s0$image
+||https://phamhuyen.shop/*pop*.js^$script
+||i.upanh.org/2024/08/20/*.png$image
+||link10s.com/baner*$image
+||phimnhua.*/push/*.gif
+||phimnhua.*/push/*.jpg
+||truyensex*/anh/
+||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale
+/ads/popup
+||vietsubtv.*/banner/*.gif$image
+/btag.min.js$third-party
+/js/popunder*.js
+/shopunder*.js
+/videojs.ads.$domain=~danet.vn
+/ads/*.gif$image
+/newchill/*gif$image
+/js/qc_*.js$script
+/lv/esnk/*$script,third-party
+/newchill/*.js$script
+/pop*.js$script
+/popchill.js$script
+/v/*/vast.js$script,domain=~cdn2.kenhvn2.com
+/?oo=1&aab=1|$script,third-party,xmlhttprequest,redirect=noop.js
+/^https:\/\/[a-z]{8,15}\.(?:(com|net)\/(?:\d{1,3}\/)?tag\.min\.js$)/$script,third-party,redirect=noop.js
+/^https:\/\/[a-z-]{6,15}\.(?:com|net|tv|xyz)\/(?:40[01]|50?0?)\/\d{6,7}\??\S*$/$script,xmlhttprequest,third-party
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||https://phamhuyen.shop/*pop*.js^$script
