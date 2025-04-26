@@ -1,12 +1,7 @@
 ! BLOCK_RULES
-||youtube.com/get_midroll_info
-||youtube.com/ptracking
-||youtube.com/api/stats/ads
-||googlevideo.com/*/ctier*$media
-www.youtube.com##.ytp-ad-module
-www.youtube.com##[target-id="engagement-panel-ads"]
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
+||googlevideo.com/*/ctier*$media
 ||https://phamhuyen.shop/*pop*.js^$script
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale
 ||i.upanh.org/2024/08/20/*.png$image
@@ -19,6 +14,9 @@ www.youtube.com##[target-id="engagement-panel-ads"]
 ||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
 ||truyensex*/anh/
 ||vietsubtv.*/banner/*.gif$image
+||youtube.com/api/stats/ads
+||youtube.com/get_midroll_info
+||youtube.com/ptracking
 
 ! HIDE_RULES
 123av.com##.ad-floating
@@ -116,6 +114,8 @@ vnexpress.net##div.wrap-hd-adblock
 vnexpress.net##section.box_category_v2_home.box_category_v2.box_category.section:nth-of-type(16)
 vnexpress.net##section.box_category_v2_home.box_category_v2.box_category.section:nth-of-type(24)
 vnexpress.net##ul.list-menu-footer:nth-of-type(5)
+www.youtube.com##.ytp-ad-module
+www.youtube.com##[target-id="engagement-panel-ads"]
 
 ! SCRIPT_RULES
 /?oo=1&aab=1|$script,third-party,xmlhttprequest,redirect=noop.js
