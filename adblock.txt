@@ -1,4 +1,10 @@
 ! BLOCK_RULES
+||youtube.com/get_midroll_info
+||youtube.com/ptracking
+||youtube.com/api/stats/ads
+||googlevideo.com/*/ctier*$media
+www.youtube.com##.ytp-ad-module
+www.youtube.com##[target-id="engagement-panel-ads"]
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||https://phamhuyen.shop/*pop*.js^$script
