@@ -133,4 +133,3 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /js/ads-manager.js*
 /js/popunder*.js
 /videojs.ads.$domain=~danet.vn
-
