@@ -1,5 +1,4 @@
 ! BLOCK_RULES
-/js/ads-manager.js*
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||https://phamhuyen.shop/*pop*.js^$script
@@ -130,6 +129,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /ads/popup
 /btag.min.js$third-party
 /include/ads.js*
+/js/ads-manager.js*
 /js/popunder*.js
 /videojs.ads.$domain=~danet.vn
 
