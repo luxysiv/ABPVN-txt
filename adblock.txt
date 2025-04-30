@@ -1,11 +1,11 @@
 ! BLOCK_RULES
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
-||phamhuyen.shop/*pop*.js^$script
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
+||phamhuyen.shop/*pop*.js^$script
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
