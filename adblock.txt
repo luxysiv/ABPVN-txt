@@ -127,6 +127,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /newchill/*gif$image
 
 ! OTHER_RULES
+/fuckadblock/*/fuckadblock.min.js$script
 /ads/popup
 /btag.min.js$third-party
 /include/ads.js*
