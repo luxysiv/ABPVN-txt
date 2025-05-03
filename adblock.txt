@@ -1,7 +1,4 @@
 ! BLOCK_RULES
-||tsyndicate.com
-/*&spotPageType=videoPage&spotType*
-/api/models/vast?
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale | daophimtrung.net | phimnhanh.lol
@@ -16,6 +13,7 @@
 ||stc02bc54661548.cloud.anycastapnic.com/1920x80*.gif$domain=khandaia2.me
 ||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
 ||truyensex*/anh/
+||tsyndicate.com
 ||vietsubtv.*/banner/*.gif$image
 
 ! HIDE_RULES
@@ -131,7 +129,9 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /newchill/*gif$image
 
 ! OTHER_RULES
+/*&spotPageType=videoPage&spotType*
 /ads/popup
+/api/models/vast?
 /btag.min.js$third-party
 /include/ads.js*
 /js/ads-manager.js*
