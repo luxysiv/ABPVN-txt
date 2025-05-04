@@ -130,7 +130,9 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
-/ads/popup
+||tardtodtimpi.com^
+/popup/banner/*$image
+/banners-web/*$image
 /api/models/vast?
 /btag.min.js$third-party
 /include/ads.js*
