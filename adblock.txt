@@ -12,6 +12,7 @@
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
 ||stc02bc54661548.cloud.anycastapnic.com/1920x80*.gif$domain=khandaia2.me
 ||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
+||tardtodtimpi.com^
 ||truyensex*/anh/
 ||tsyndicate.com
 ||vietsubtv.*/banner/*.gif$image
@@ -126,13 +127,12 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! IMAGE_RULES
 /ads/*.gif$image
+/banners-web/*$image
 /newchill/*gif$image
+/popup/banner/*$image
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
-||tardtodtimpi.com^
-/popup/banner/*$image
-/banners-web/*$image
 /api/models/vast?
 /btag.min.js$third-party
 /include/ads.js*
