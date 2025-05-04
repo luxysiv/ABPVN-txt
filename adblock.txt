@@ -127,16 +127,16 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! IMAGE_RULES
 /ads/*.gif$image
-/banners-web/*
 /newchill/*gif$image
-/popup/banner/*
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
 /api/models/vast?
+/banners-web/*
 /btag.min.js$third-party
 /include/ads.js*
 /js/ads-manager.js*
 /js/popunder*.js
+/popup/banner/*
 /videojs.ads.$domain=~danet.vn
 
