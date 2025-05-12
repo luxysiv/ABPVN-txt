@@ -15,6 +15,7 @@
 ||truyensex*/anh/
 ||tsyndicate.com
 ||vietsubtv.*/banner/*
+||vietsubtv.*/*underpop*.js
 
 ! HIDE_RULES
 123av.com##.ad-floating
