@@ -131,11 +131,11 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
 /api/models/vast?
+/banner/*.js
 /banners-web/*
 /btag.min.js$third-party
 /include/ads.js*
 /js/ads-manager.js*
-/banner/*.js
 /js/popunder*.js
 /popup/banner/*
 /videojs.ads.$domain=~danet.vn
