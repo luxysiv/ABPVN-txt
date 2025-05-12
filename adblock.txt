@@ -14,8 +14,8 @@
 ||tardtodtimpi.com^
 ||truyensex*/anh/
 ||tsyndicate.com
-||vietsubtv.*/banner/*
 ||vietsubtv.*/*underpop*.js
+||vietsubtv.*/banner/*
 
 ! HIDE_RULES
 123av.com##.ad-floating
