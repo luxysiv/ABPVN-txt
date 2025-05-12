@@ -6,7 +6,6 @@
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
-||phamhuyen.shop/*pop*.js^$script
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
@@ -136,6 +135,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /btag.min.js$third-party
 /include/ads.js*
 /js/ads-manager.js*
+/banner/*.js
 /js/popunder*.js
 /popup/banner/*
 /videojs.ads.$domain=~danet.vn
