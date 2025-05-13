@@ -120,18 +120,16 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /fuckadblock/*/fuckadblock.min.js$script
 /js/qc_*.js$script
 /lv/esnk/*$script,third-party
-/newchill/*.js$script
 /pop*.js$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
 
 ! IMAGE_RULES
 /ads/*.gif$image
-/newchill/*gif$image
+||phimmoi*/newchill/
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
 /api/models/vast?
-/banner/*.js
 /banner/*pop*.js
 /banners-web/*
 /btag.min.js$third-party
