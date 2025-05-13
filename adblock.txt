@@ -6,6 +6,7 @@
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
+||phimmoi*/newchill/
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
@@ -125,7 +126,6 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! IMAGE_RULES
 /ads/*.gif$image
-||phimmoi*/newchill/
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
