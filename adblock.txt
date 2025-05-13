@@ -1,5 +1,4 @@
 ! BLOCK_RULES
-||motchill*/wp-content/*.gif
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale | daophimtrung.net | phimnhanh.lol
@@ -7,6 +6,7 @@
 ||i.upanh.org/2024/08/20/*.png$image
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
+||motchill*/wp-content/*.gif
 ||phimmoi*/newchill/
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
