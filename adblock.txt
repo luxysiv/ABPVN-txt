@@ -15,7 +15,6 @@
 ||truyensex*/anh/
 ||tsyndicate.com
 ||vietsubtv.*/banner/*
-/banner/*pop*.js
 
 ! HIDE_RULES
 123av.com##.ad-floating
@@ -133,6 +132,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /*&spotPageType=videoPage&spotType*
 /api/models/vast?
 /banner/*.js
+/banner/*pop*.js
 /banners-web/*
 /btag.min.js$third-party
 /include/ads.js*
