@@ -1,5 +1,4 @@
 ! BLOCK_RULES
-/AdsManager/js/*.js
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale | daophimtrung.net | phimnhanh.lol
@@ -130,6 +129,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 
 ! OTHER_RULES
 /*&spotPageType=videoPage&spotType*
+/AdsManager/js/*.js
 /api/models/vast?
 /banner/*pop*.js
 /banners-web/*
