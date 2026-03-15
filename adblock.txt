@@ -144,3 +144,4 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /js/popunder*.js
 /popup/banner/*
 /videojs.ads.$domain=~danet.vn
+
