@@ -1,5 +1,4 @@
 ! BLOCK_RULES
-/v7/*/segment*.ts
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale | daophimtrung.net | phimnhanh.lol
@@ -144,5 +143,6 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /js/ads-manager.js*
 /js/popunder*.js
 /popup/banner/*
+/v7/*/segment*.ts
 /videojs.ads.$domain=~danet.vn
 
