@@ -1,42 +1,66 @@
-import re
+import hashlib
+from datetime import datetime
 
-def sort_and_group_rules(file_path):
+def generate_adblock_list(file_path):
+    # 1. Đọc và lọc các quy tắc cũ (bỏ qua comment cũ và dòng trống)
     with open(file_path, 'r', encoding='utf-8') as f:
-        rules = list(set(line.strip() for line in f if line.strip()))
+        raw_lines = [line.strip() for line in f if line.strip() and not line.startswith('!')]
+    
+    # Loại bỏ trùng lặp bằng set
+    rules = list(set(raw_lines))
 
-    categorized_rules = {
-        'block_rules': set(),
-        'hide_rules': set(),
-        'script_rules': set(),
-        'media_rules': set(),
-        'image_rules': set(),
-        'other_rules': set()
+    # 2. Phân loại quy tắc
+    categorized = {
+        'BLOCK RULES': [],
+        'HIDE RULES': [],
+        'SCRIPT RULES': [],
+        'MEDIA RULES': [],
+        'IMAGE RULES': [],
+        'OTHER RULES': []
     }
 
     for rule in rules:
-        if rule.startswith('!'):
-            continue
         if rule.startswith('||'):
-            categorized_rules['block_rules'].add(rule)
-        elif '##' in rule:
-            categorized_rules['hide_rules'].add(rule)
+            categorized['BLOCK RULES'].append(rule)
+        elif '##' in rule or '#?#' in rule:
+            categorized['HIDE RULES'].append(rule)
         elif '$script' in rule.lower():
-            categorized_rules['script_rules'].add(rule)
+            categorized['SCRIPT RULES'].append(rule)
         elif '$media' in rule.lower():
-            categorized_rules['media_rules'].add(rule)
+            categorized['MEDIA RULES'].append(rule)
         elif '$image' in rule.lower():
-            categorized_rules['image_rules'].add(rule)
+            categorized['IMAGE RULES'].append(rule)
         else:
-            categorized_rules['other_rules'].add(rule)
+            categorized['OTHER RULES'].append(rule)
 
-    for key in categorized_rules:
-        categorized_rules[key] = sorted(categorized_rules[key])
+    # 3. Sắp xếp các quy tắc trong từng nhóm
+    content_body = ""
+    for category in sorted(categorized.keys()):
+        if categorized[category]:
+            content_body += f"! --- {category} ---\n"
+            content_body += "\n".join(sorted(categorized[category])) + "\n\n"
 
+    # 4. Tính toán Checksum (Dựa trên nội dung body, bỏ qua các dòng comment)
+    # Lưu ý: Các trình chặn thường tính checksum trên dữ liệu thô đã lọc comment
+    hash_md5 = hashlib.md5(content_body.encode('utf-8')).hexdigest()
+
+    # 5. Tạo Header chuẩn Adblock
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    header = f"""[Adblock Plus 2.0]
+! Title: My Custom Adblock List
+! Last Modified: {now}
+! Expires: 4 days (update interval)
+! Checksum: {hash_md5}
+! Version: {datetime.now().strftime("%Y%m%d%H%M")}
+!
+"""
+
+    # 6. Ghi file hoàn thiện
     with open(file_path, 'w', encoding='utf-8') as f:
-        for category, rules in categorized_rules.items():
-            if rules:
-                f.write(f'! {category.upper()}\n')
-                f.write('\n'.join(rules) + '\n\n')
+        f.write(header + content_body)
+    
+    print(f"Đã cập nhật danh sách thành công với Checksum: {hash_md5}")
 
+# Thực thi
 file_path = 'adblock.txt'
-sort_and_group_rules(file_path)
+generate_adblock_list(file_path)
