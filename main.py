@@ -1,75 +1,53 @@
 import hashlib
 import base64
+import re
 from datetime import datetime
 
-def fix_adblock_list(input_file):
-    # 1. Đọc dữ liệu và phân loại (bỏ qua các dòng comment cũ/header cũ)
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip() and not line.startswith(('[Adblock', '! Title', '! Last', '! Expires', '! Checksum', '! Version'))]
-
-    # Phân loại rule dựa trên keyword
-    categories = {
-        'BLOCK RULES': [],
-        'HIDE RULES': [],
-        'IMAGE RULES': [],
-        'OTHER RULES': [],
-        'SCRIPT RULES': []
-    }
-
+def generate_standard_adblock(file_path):
+    # 1. Đọc dữ liệu thô và lọc bỏ các dòng Header/Checksum cũ
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    
+    clean_rules = []
     for line in lines:
-        if line.startswith('!'): continue # Bỏ qua các comment tự do
-        
-        if line.startswith('||'):
-            categories['BLOCK RULES'].append(line)
-        elif '##' in line:
-            categories['HIDE RULES'].append(line)
-        elif '$image' in line or '/ads/*.gif' in line:
-            categories['IMAGE RULES'].append(line)
-        elif '$script' in line:
-            categories['SCRIPT RULES'].append(line)
-        else:
-            categories['OTHER RULES'].append(line)
+        l = line.strip()
+        # Bỏ qua dòng trống và các dòng thuộc Header cũ
+        if l and not l.startswith(('[Adblock', '! Title', '! Last', '! Expires', '! Checksum', '! Version')):
+            clean_rules.append(l)
 
-    # 2. Xây dựng nội dung Body (Phần quy tắc)
-    body_content = ""
-    for cat in sorted(categories.keys()):
-        if categories[cat]:
-            body_content += f"! --- {cat} ---\n"
-            body_content += "\n".join(sorted(categories[cat])) + "\n\n"
+    # 2. Tạo phần nội dung quy tắc (Body)
+    # Lưu ý: Không để dòng trống ở cuối để tránh sai lệch checksum
+    body_content = "\n".join(clean_rules) + "\n"
 
-    # 3. Tạo Header (Tạm thời không có dòng Checksum để tính toán)
+    # 3. Tạo Header mẫu (Không có dòng Checksum) để lấy dữ liệu băm
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     version = datetime.now().strftime("%Y%m%d%H%M")
     
-    header_template = f"[Adblock Plus 2.0]\n"
-    header_template += f"! Title: My Custom Adblock List\n"
-    header_template += f"! Last Modified: {now}\n"
-    header_template += f"! Expires: 4 days\n"
-    header_template += f"! Version: {version}\n"
+    # Cấu trúc Header cố định
+    header_part1 = "[Adblock Plus 2.0]\n"
+    header_part2 = f"! Title: My Custom Adblock List\n! Last Modified: {now}\n! Expires: 4 days\n! Version: {version}\n!\n"
     
-    # Để tính checksum đúng, ta tính trên Header (không có checksum) + Body
-    full_content_for_hash = header_template + "!\n" + body_content
+    # Dữ liệu dùng để băm = Header (không checksum) + Body
+    data_to_hash = header_part1 + header_part2 + body_content
     
-    # 4. Thuật toán Checksum chuẩn: MD5 -> Base64 -> Remove '='
-    md5_raw = hashlib.md5(full_content_for_hash.encode('utf-8')).digest()
-    checksum = base64.b64encode(md5_raw).decode('utf-8').rstrip('=')
+    # 4. Tính toán Checksum (MD5 -> Base64)
+    md5_obj = hashlib.md5(data_to_hash.encode('utf-8'))
+    checksum_value = base64.b64encode(md5_obj.digest()).decode('utf-8').rstrip('=')
 
-    # 5. Ghi file hoàn thiện (Chèn dòng Checksum vào giữa)
-    final_output = (
-        f"[Adblock Plus 2.0]\n"
-        f"! Title: My Custom Adblock List\n"
-        f"! Last Modified: {now}\n"
-        f"! Expires: 4 days\n"
-        f"! Checksum: {checksum}\n"
-        f"! Version: {version}\n"
-        f"!\n"
+    # 5. Ráp lại file hoàn chỉnh với Checksum nằm ở trên
+    final_file_content = (
+        f"{header_part1}"
+        f"! Checksum: {checksum_value}\n"
+        f"{header_part2}"
         f"{body_content}"
     )
 
-    with open(input_file, 'w', encoding='utf-8') as f:
-        f.write(final_output)
+    # 6. Ghi file với Encoding UTF-8 chuẩn
+    with open(file_path, 'w', encoding='utf-8', newline='\n') as f:
+        f.write(final_file_content)
 
-    print(f"Hoàn tất! Checksum mới: {checksum}")
+    print(f"--- Đã tạo file thành công ---")
+    print(f"Checksum: {checksum_value}")
 
-# Thực hiện với file của bạn
-fix_adblock_list('adblock.txt')
+# Thực thi
+generate_standard_adblock('adblock.txt')
