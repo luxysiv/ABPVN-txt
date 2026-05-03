@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Adblock List
-! Last Modified: 2026-05-03 05:14:54
-! Expires: 4 days (update interval)
-! Checksum: c931d14bff7b7f23b5359c9cb0fc3b40
-! Version: 202605030514
+! Last Modified: 2026-05-03 05:34:06
+! Expires: 4 days
+! Checksum: bBkuBslNGwH7NvSJUcSVoQ
+! Version: 202605030534
 !
 ! --- BLOCK RULES ---
 ||api.anime3s.com/*/728-x-90.gif
