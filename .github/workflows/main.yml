@@ -1,6 +1,8 @@
 name: Sắp xếp tên miền 
 on:
   push:
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   run:
     name: Sắp xếp tên miền 
