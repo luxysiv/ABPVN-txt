@@ -5,12 +5,14 @@
 ! Expires: 4 days
 ! Version: 202605060255
 !
-!
-!
-!
-!
-!
 ! --- BLOCK RULES ---
+||g.doubleclick.net^
+||la2.vnecdn.net/static/adp_banner.js
+||s1.vnecdn.net/*/ea3.js
+/prebid.$script,domain=~prebid.org
+||eclick.vn^$third-party
+/gpt.js$script
+/asyncjs.php$script
 ||api.anime3s.com/*/728-x-90.gif
 ||blogger.googleusercontent.com/img/b/*728x90.gif
 ||i.imgur.com/*.gif$domain=phimmoiday.net | phimmoi.sale | daophimtrung.net | phimnhanh.lol
@@ -19,7 +21,6 @@
 ||lh3.googleusercontent.com/*=s0$image
 ||link10s.com/baner*$image
 ||motchill*/wp-content/*.gif
-||phimmoi*/newchill/
 ||phimnhua.*/push/*.gif
 ||phimnhua.*/push/*.jpg
 ||stc02bc54661548.cloud.anycastapnic.com/1330x130khandaia*.gif$domain=khandaia2.me
@@ -27,6 +28,10 @@
 ||stc02bc54661548.cloud.anycastapnic.com/banner-km*.gif$domain=khandaia.info
 ||tardtodtimpi.com^
 ||truyenxxx*/anh/
+/asyncjs.php$script
+||googlesyndication.com/pagead/
+||admicro.vn^
+||amcdn.vn^$third-party
 ||tsyndicate.com
 ||vietsubtv.*/banner/*
 ! --- HIDE RULES ---
@@ -131,6 +136,7 @@ vnexpress.net##section[class="banner_top"]
 vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 ! --- IMAGE RULES ---
 /ads/*.gif$image
+*/newchill/*gif$image
 ! --- OTHER RULES ---
 /*&spotPageType=videoPage&spotType*
 /AdsManager/js/*.js
