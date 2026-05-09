@@ -5,6 +5,7 @@
 ! Expires: 4 days
 ! Version: 202605090253
 !
+/^https:\/\/[0-9a-z]{6,12}\.in(?:\/[a-z]{2,10}){1,3}$/$script,third-party,match-case
 ! BLOCK_RULES
 ||admicro.vn^
 ||amcdn.vn^$third-party
