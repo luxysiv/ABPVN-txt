@@ -6,6 +6,8 @@
 ! Version: 202607230511
 !
 ! BLOCK_RULES
+vnexpress.net###box_detail
+vnexpress.net##div.inner_section.social_detail:nth-child(13) > div.social.width_common.mb20:first-child > div.gg-news.gaElementVisibility:first-child > a:first-child
 ||admicro.vn^
 ||amcdn.vn^$third-party
 ||api.anime3s.com/*/728-x-90.gif
