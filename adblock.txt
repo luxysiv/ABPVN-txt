@@ -1,13 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: c4nEx4lg7ZKmx6sqs/Vkzg
+! Checksum: W6KJjcRg7Qho1BvW6YXNDQ
 ! Title: My Custom Adblock List
-! Last Modified: 2026-07-23 05:11:16
+! Last Modified: 2026-07-23 05:17:58
 ! Expires: 4 days
-! Version: 202607230511
+! Version: 202607230517
 !
 ! BLOCK_RULES
-vnexpress.net###box_detail
-vnexpress.net##div.inner_section.social_detail:nth-child(13) > div.social.width_common.mb20:first-child > div.gg-news.gaElementVisibility:first-child > a:first-child
 ||admicro.vn^
 ||amcdn.vn^$third-party
 ||api.anime3s.com/*/728-x-90.gif
@@ -125,6 +123,7 @@ vnexpress.net##.width_common.block_scoll_menu > div.width_common.coppy_right_inf
 vnexpress.net##.wrap-contact > .downloadapp.contact
 vnexpress.net##.wrap-contact > div.contact
 vnexpress.net##SECTION.section.box_category_v2.section_ads_300x250
+vnexpress.net##div.inner_section.social_detail:nth-child(13) > div.social.width_common.mb20:first-child > div.gg-news.gaElementVisibility:first-child > a:first-child
 vnexpress.net##div.width_common.menu_grid2:nth-of-type(25)
 vnexpress.net##div.width_common.menu_grid2:nth-of-type(3)
 vnexpress.net##div.wrap-hd-adblock
