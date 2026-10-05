@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eVb4j0w7dysxO028OdHJpQ
+! Checksum: 1alm8gAXKh91TbFTB0XaBw
 ! Title: My Custom Adblock List
-! Last Modified: 2026-10-04 04:40:19
+! Last Modified: 2026-10-05 04:27:50
 ! Expires: 4 days
-! Version: 202610040440
+! Version: 202610050427
 !
 ! BLOCK_RULES
 ||admicro.vn^
