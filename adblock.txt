@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5Nv3jwYWsLteyagaLqBgfw
+! Checksum: b4Hli25vC13ISZeRO59igA
 ! Title: My Custom Adblock List
-! Last Modified: 2026-10-13 05:46:51
+! Last Modified: 2026-10-13 06:25:08
 ! Expires: 4 days
-! Version: 202610130546
+! Version: 202610130625
 !
 ! BLOCK_RULES
 ||admicro.vn^
@@ -147,6 +147,7 @@ vnexpress.net##ul.list-menu-footer:nth-of-type(5)
 /pop*.js$script
 /prebid.$script,domain=~prebid.org
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
+
 ! IMAGE_RULES
 */newchill/*gif$image
 /ads/*.gif$image
